@@ -1,0 +1,180 @@
+/* styles.css */
+
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+
+/* styles.css */
+
+/* ...existing styles... */
+
+/* Hero Section Styles */
+
+#hero {
+  background-image: url('ima1.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff; /* Adjust the text color to ensure readability */
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background for better text visibility */
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* ...remaining styles... */
+/* About Section Styles */
+
+#about {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+/* Services Section Styles */
+
+#services {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#services li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+
+#contact {
+  background-color: #333;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+#slideshow {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-image {
+  padding: 20px;
+}
+
+.slideshow-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.carrier-list {
+  list-style: none;
+  padding: 0;
+}
+
+.carrier-item {
+  display: flex;
+  align-items: center;
+}
+
+.carrier-image {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.carrier-details {
+  flex: 1;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+

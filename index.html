@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ByteWave IT Solutions - Innovative IT Services</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slideshow-image");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change slide every 2 seconds
+      }
+    });
+  </script>
+	
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+	<li><a href="#carriers">Carriers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to ByteWave IT Solutions</h1>
+      <p>Delivering innovative IT solutions to drive your business forward.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a leading IT company specializing in providing cutting-edge technology solutions for businesses of all sizes. With our expertise and passion for innovation, we help our clients leverage the power of technology to achieve their goals.</p>
+    </div>
+  </section>
+
+  <section id="slideshow">
+    <div class="slideshow-container">
+      <div class="slideshow-image">
+        <img src="images/image1.jpeg" alt="Slideshow Image 1">
+      </div>
+      <div class="slideshow-image">
+        <img src="images/image2.jpeg" alt="Slideshow Image 2">
+      </div>
+      <div class="slideshow-image">
+        <img src="images/image3.jpeg" alt="Slideshow Image 3">
+      </div>
+      <div class="slideshow-image">
+        <img src="images/image4.jpeg" alt="Slideshow Image 4">
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Custom Software Development</li>
+        <li>Web Application Development</li>
+        <li>Mobile App Development</li>
+        <li>Cloud Computing Solutions</li>
+        <li>Data Analytics and Business Intelligence</li>
+        <li>IT Consulting Services</li>
+      </ul>
+    </div>
+  </section>
+
+ <section id="carriers">
+  <div class="container">
+    <h2>Our Carriers</h2>
+    <p>We partner with leading technology companies to provide you with the best solutions.</p>
+    <ul class="carrier-list">
+      <li>
+        <div class="carrier-item">
+          <img src="images/car1.png" alt="Carrier 1" class="carrier-image">
+          <div class="carrier-details">
+            <h3>Carrier 1</h3>
+            <p>Python developer with AWS</p>
+            <p>Click the link below to view the job description:</p>
+            <a href="jd/python.html" target="_blank" class="button">View Job Description</a>
+            <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__iO4X05UMUVOQzdINTQ4Mk1CMTJMWDdFSUFETE4yRS4u" target="_blank" class="button">Click Here to apply</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="carrier-item">
+          <img src="images/car2.png" alt="Carrier 2" class="carrier-image">
+          <div class="carrier-details">
+            <h3>Carrier 2</h3>
+            <p>Android Developer</p>
+	    <p>Click the link below to view the job description:</p>
+	    <a href="jd/android.html" target="_blank" class="button">View Job Description</a>
+            <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__iO4X05UMUVOQzdINTQ4Mk1CMTJMWDdFSUFETE4yRS4u" target="_blank" class="button">Click Here to apply</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="carrier-item">
+          <img src="images/car3.jpeg" alt="Carrier 3" class="carrier-image">
+          <div class="carrier-details">
+            <h3>Carrier 3</h3>
+            <p>.net developer</p>
+	    <p>Click the link below to view the job description:</p>
+	    <a href="jd/net.html" target="_blank" class="button">View Job Description</a>
+            <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__iO4X05UMUVOQzdINTQ4Mk1CMTJMWDdFSUFETE4yRS4u" target="_blank" class="button">Click Here to apply</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+</body>
+</html>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Let's discuss how we can help your business thrive. Reach out to us today.</p>
+      <p>Email: info@ByteWaveit.com</p>
+      <p>Phone: +91 2084125471</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 ByteWave IT Solutions. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
